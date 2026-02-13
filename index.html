@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hikaro Lopes Reis · Boxeador · Currículo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="resume-card">
+    <!-- cabeçalho com nome e contato -->
+    <div class="header-boxeador">
+      <div class="nome-titulo">
+        <h1>HIKARO<br>LOPES REIS</h1>
+        <span class="badge">🥊 BOXER · LONDRINA PR</span>
+      </div>
+      <div class="contato-rapido">
+        <span class="local">📍 Londrina, Paraná</span>
+        <span class="telefone">📞 43 99953-2727</span>
+      </div>
+    </div>
+
+    <!-- grid principal -->
+    <div class="conteudo-grid">
+      <!-- COLUNA ESQUERDA - PERFIL BOXER COM FOTO -->
+      <div class="perfil-boxeador">
+        <!-- ESPAÇO PARA SUA FOTO -->
+        <div class="foto-luva">
+          <img src="unnamed.jpg" alt="Foto de Hikaro Lopes Reis" class="foto-perfil" id="foto-perfil">
+        </div>
+        
+        <!-- CASO AINDA NÃO TENHA FOTO, USE ESTA LINHA COMENTADA:
+        <div class="foto-luva">
+          <div class="icone-luva">🥊</div>
+        </div> 
+        -->
+        
+        <div class="perfil-titulo">💪 dados do atleta</div>
+        <div class="dados-pessoais">
+          <p>🥊 <strong>17 anos</strong> (categoria juvenil)</p>
+          <p>🏆 <strong>boxe olímpico · peso leve</strong></p>
+          <p>🤼 <strong>treino: CT Champions · Londrina</strong></p>
+        </div>
+
+        <div class="perfil-titulo">⚡ habilidades no ringue</div>
+        <ul class="habilidades-lista">
+          <li>🥊 JAB & DIRETO <span>95%</span></li>
+          <div class="progress-bar"><div class="progress-fill" style="width:95%"></div></div>
+          <li>👟 FOOTWORK / AGILIDADE <span>88%</span></li>
+          <div class="progress-bar"><div class="progress-fill" style="width:88%"></div></div>
+          <li>🛡️ DEFESA / ESQUIVE <span>82%</span></li>
+          <div class="progress-bar"><div class="progress-fill" style="width:82%"></div></div>
+          <li>💥 FORÇA EXPLOSIVA <span>90%</span></li>
+          <div class="progress-bar"><div class="progress-fill" style="width:90%"></div></div>
+        </ul>
+
+        <div class="perfil-titulo">🏅 categorias</div>
+        <div class="categorias-container">
+          <span class="categoria-destaque">LEVE</span>
+          <span class="categoria">JUVENIL</span>
+          <span class="categoria">74kg</span>
+        </div>
+
+        <!-- OPÇÃO PARA TROCAR A FOTO (INTERATIVO) -->
+        <div class="troca-foto-container">
+          <button class="btn-foto" id="btnTrocarFoto">📸 TROCAR FOTO</button>
+          <input type="file" id="inputFoto" accept="image/*" style="display: none;">
+        </div>
+      </div>
+
+      <!-- COLUNA DIREITA - EXPERIÊNCIAS -->
+      <div class="experiencia-box">
+        <!-- Seção objetivo -->
+        <div class="card-item objetivo-card">
+          <h3>🥇 objetivo profissional</h3>
+          <p>Atleta de boxe em busca de oportunidades para representar Londrina em competições estaduais e nacionais. Disciplina, força de vontade e respeito dentro e fora do ringue. Quero crescer como boxeador e futuramente atuar como treinador.</p>
+        </div>
+
+        <div class="section-title">📋 formação & educação</div>
+        <div class="card-item">
+          <h3>Ensino Médio (cursando)</h3>
+          <div class="subtitulo">Colégio Estadual Londrina · 2027 – 2028</div>
+          <p>3º ano do ensino médio, período noturno (conciliado com treinos pesados).</p>
+        </div>
+        <div class="card-item">
+          <h3>Formação Boxe Olímpico</h3>
+          <div class="subtitulo">CT Champions Boxing · Londrina, PR · 2026 – atual</div>
+          <p>Treinamento diário com foco em técnica, condicionamento e sparring. Participação em 3 torneios regionais (2 medalhas de ouro, 1 prata).</p>
+        </div>
+
+        <div class="section-title">🏆 experiências no boxe</div>
+        <div class="card-item">
+          <h3>Campeonato Paranaense Juvenil</h3>
+          <div class="subtitulo">🥇 1º lugar · categoria 70kg · 2027</div>
+          <p>Lutas intensas, vitória por decisão unânime na final. Destaque para resistência e jab.</p>
+        </div>
+        <div class="card-item">
+          <h3>Circuito Estadual de Boxe</h3>
+          <div class="subtitulo">🥈 2º lugar · Londrina · 2027</div>
+          <p>Primeira competição de alto nível, amadurecimento tático e experiência valiosa.</p>
+        </div>
+
+        <!-- ÁREA INTERATIVA -->
+        <div class="js-panel">
+          <button class="btn-luva" id="botaoBoxeador">🥊 GOLPE DE EFEITO</button>
+          <div id="mensagemDinamica">✨ pronto para o round</div>
+        </div>
+
+        <p class="contato-rodape">
+          🥊 disponível para sparring, eventos e divulgação esportiva
+        </p>
+      </div>
+    </div>
+
+    <!-- rodapé -->
+    <div class="footer-londrina">
+      <strong>Hikaro Lopes Reis</strong> · 17 anos · Londrina, PR · 🥊 boxeador em ascensão · currículo profissional 2025
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
